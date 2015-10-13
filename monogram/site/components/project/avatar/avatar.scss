@@ -1,0 +1,15 @@
+@mixin avatar {
+  display: flex;
+
+  flex-grow: 2;
+  align-items: flex-end;
+
+
+  &__image {
+    @include avatar__image;
+  }
+
+  &__text {
+    @include avatar__text;
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "text_styles": [
+    {
+      "name": "Default",
+      "description": "The basic settings for a text.",
+      "based_on": "Montserrat",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "montserrat-normal"
+        },
+        {
+          "name": "scale",
+          "value": "default"
+        },
+        {
+          "name": "colors",
+          "value": "black-on-white"
+        }
+      ]
+    },
+    {
+      "name": "Title",
+      "description": "The avatar title",
+      "based_on": "Montserrat",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "montserrat-bold"
+        },
+        {
+          "name": "uppercase",
+          "value": "1.1px"
+        }
+      ]
+    },
+    {
+      "name": "Subtitle",
+      "description": "The avatar role",
+      "based_on": "Lekton",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "lekton-italic"
+        }
+      ]
+    }
+  ]
+}

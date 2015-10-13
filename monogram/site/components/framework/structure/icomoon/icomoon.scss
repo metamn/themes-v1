@@ -1,0 +1,12 @@
+@mixin icomoon($size: $lem) {
+  display: flex;
+  width: $size;
+  height: $size;
+
+  .icon {
+    display: flex;
+    width: $size;
+  	height: $size;
+  	fill: currentColor;
+  }
+}

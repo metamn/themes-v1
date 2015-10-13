@@ -49,7 +49,7 @@ var html = function(source, dest) {
       }
     }))
 
-    .pipe(minifyHTML())
+    //.pipe(minifyHTML())
     .pipe(gulp.dest(dest));
 }
 

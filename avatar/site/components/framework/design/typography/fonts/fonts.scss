@@ -8,11 +8,13 @@
 // Styleguide fonts
 
 
-// Nimbus Sans
+// Montserrat
 // - The default typeface, sans-serif
-// - character set: Full character set, with OpenType Features
-// - served from Typekit
-// - styles and weights: Regular, Bold, Black, 
+// - character set: Latin
+// - served from Google
+// - styles and weights: Normal, 
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,);
 
 
 
@@ -20,21 +22,9 @@
 // The font mixin
 @mixin font($variant) {
 
-  @if ($variant == 'nimbus-sans-regular') {
-    font-family: 'nimbus-sans', sans-serif;
+  @if ($variant == 'montserrat-normal') {
+    font-family: 'montserrat', sans-serif;
     font-weight: 400;
-    font-style: normal;
-  }
-  
-  @if ($variant == 'nimbus-sans-bold') {
-    font-family: 'nimbus-sans', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  @if ($variant == 'nimbus-sans-black') {
-    font-family: 'nimbus-sans', sans-serif;
-    font-weight: 900;
     font-style: normal;
   }
   
@@ -43,21 +33,9 @@
 
 // Font classes
 
-.nimbus-sans-regular {
-  font-family: 'nimbus-sans', sans-serif;
+.montserrat-normal {
+  font-family: 'montserrat', sans-serif;
   font-weight: 400;
-  font-style: normal;
-}
-
-.nimbus-sans-bold {
-  font-family: 'nimbus-sans', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.nimbus-sans-black {
-  font-family: 'nimbus-sans', sans-serif;
-  font-weight: 900;
   font-style: normal;
 }
 

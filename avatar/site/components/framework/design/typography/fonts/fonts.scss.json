@@ -1,26 +1,18 @@
 {
   "fonts": [
     {
-      "name": "Nimbus Sans",
+      "name": "Montserrat",
       "description": "The default typeface",
       "family": "sans-serif",
-      "character_set": "Full character set, with OpenType Features",
-      "served_from": "Typekit",
+      "character_set": "Latin",
+      "served_from": "Google",
+      "google_font_id": "Montserrat",
       "styles": [
         {
-          "name": "Regular",
+          "name": "Normal",
           "weight": "400",
-          "style": "normal"
-        },
-        {
-          "name": "Bold",
-          "weight": "700",
-          "style": "normal"
-        },
-        {
-          "name": "Black",
-          "weight": "900",
-          "style": "normal"
+          "style": "normal",
+          "id": "400"
         }
       ]
     }

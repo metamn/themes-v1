@@ -4,5 +4,12 @@
     "name": "Same Fernandez",
     "role": "Front-end developer",
     "image": "avatar.jpg"
-  }
+  },
+  "icons": [
+    {
+      "name": "github",
+      "title": "Github",
+      "url": "http://github.com"
+    }
+  ]
 }

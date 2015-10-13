@@ -1,0 +1,5 @@
+@mixin icons {
+  .icon {
+    @include icon;
+  }
+}

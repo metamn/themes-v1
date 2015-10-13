@@ -4,6 +4,10 @@ html {
       .avatar {
         @include avatar;
       }
+
+      .icons {
+        @include icons;
+      }
     }
   }
 }

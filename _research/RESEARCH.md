@@ -1,4 +1,4 @@
-# Themes
+# Themes Research
 
 * [Current market](#current-market)
 * [Similar services](#similar-services)

@@ -1,5 +1,5 @@
 <div class="icomoon">
-  {% if false %}
+  {% if icon.url %}
     <a class="icon__link" href="{{ icon.url }}" title="{{ icon.title }}">
   {% endif %}
 

@@ -10,6 +10,21 @@
       "name": "github",
       "title": "Github",
       "url": "http://github.com"
+    },
+    {
+      "name": "twitter",
+      "title": "Twitter",
+      "url": "http://twitter.com"
+    },
+    {
+      "name": "instagram",
+      "title": "Instagram",
+      "url": "http://instagram.com"
+    },
+    {
+      "name": "facebook",
+      "title": "Facebook",
+      "url": "http://facebook.com"
     }
   ]
 }

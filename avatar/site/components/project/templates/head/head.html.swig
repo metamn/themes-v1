@@ -10,7 +10,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <title>{{ avatar.name }} &mdash; {{ avatar.role }}</title>
+    <title>{{ avatar.name }} - {{ avatar.role }}</title>
     <link href="{{ site.url }}assets/styles/site.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
     {{ scripts | safe }}

@@ -1,6 +1,8 @@
 html {
   &.home {
     body {
+      @include stretch--columns;
+
       .avatar {
         @include avatar;
       }

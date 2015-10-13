@@ -1,5 +1,10 @@
 @mixin icons {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: $lem;
+
   .icomoon {
     @include icomoon;
+    padding: 0 $lem / 2;
   }
 }

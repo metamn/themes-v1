@@ -1,0 +1,6 @@
+@mixin monogram--character {
+  display: flex;
+  @include text-style(character);
+
+  padding: $lem / 4;
+}

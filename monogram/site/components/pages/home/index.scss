@@ -1,14 +1,22 @@
 html {
   &.home {
     body {
-      @include stretch--columns;
+      position: relative;
 
-      .avatar {
-        @include avatar;
+      .monogram {
+        @include monogram;
       }
 
-      .icons {
-        @include icons;
+      .content {
+        @include stretch--columns;
+        
+        .avatar {
+          @include avatar;
+        }
+
+        .icons {
+          @include icons;
+        }
       }
     }
   }

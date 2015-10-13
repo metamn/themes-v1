@@ -1,0 +1,21 @@
+@mixin monogram {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  overflow-x: hidden;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &__name {
+    display: none;
+  }
+
+  &__character {
+    @include monogram__character;
+  }
+}

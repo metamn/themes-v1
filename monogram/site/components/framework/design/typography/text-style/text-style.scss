@@ -46,6 +46,35 @@
     
   }
   
+  // Character
+  // - The background character
+  @if ($variant == 'character') {
+    @include font(montserrat-bold);
+    @include uppercase(1.1px);
+    @include scale(large-4);
+    
+    
+    
+    @include tablet {
+      @include scale(large-6);
+      
+      
+    }
+    
+    @include laptop {
+      @include scale(large-7);
+      
+      
+    }
+    
+    @include desktop {
+      @include scale(large-8);
+      
+      
+    }
+    
+  }
+  
 }
 
 
@@ -72,6 +101,33 @@
   @include font(lekton-italic);
   
   
+  
+}
+
+.text-style--character {
+  @include font(montserrat-bold);
+  @include uppercase(1.1px);
+  @include scale(large-4);
+  
+  
+  
+  @include tablet {
+    @include scale(large-6);
+    
+    
+  }
+  
+  @include laptop {
+    @include scale(large-7);
+    
+    
+  }
+  
+  @include desktop {
+    @include scale(large-8);
+    
+    
+  }
   
 }
 

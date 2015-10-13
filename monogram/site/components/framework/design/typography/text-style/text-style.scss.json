@@ -44,6 +44,55 @@
           "value": "lekton-italic"
         }
       ]
+    },
+    {
+      "name": "Character",
+      "description": "The background character",
+      "based_on": "Montserrat",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "montserrat-bold"
+        },
+        {
+          "name": "uppercase",
+          "value": "1.1px"
+        },
+        {
+          "name": "scale",
+          "value": "large-4"
+        }
+      ],
+      "responsive": [
+        {
+          "breakpoint": "tablet",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-6"
+            }
+          ]
+        },
+        {
+          "breakpoint": "laptop",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-7"
+            }
+          ]
+        },
+        {
+          "breakpoint": "desktop",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-8"
+            }
+          ]
+        }
+      ]
     }
+
   ]
 }

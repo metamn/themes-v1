@@ -1,1 +1,9 @@
-@mixin avatar {}
+@mixin avatar {
+  &__image {
+    @include avatar__image;
+  }
+
+  &__text {
+    @include avatar__text;
+  }
+}

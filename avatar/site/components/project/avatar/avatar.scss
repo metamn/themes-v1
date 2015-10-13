@@ -1,6 +1,9 @@
 @mixin avatar {
   display: flex;
-  align-items: center;
+
+  flex-grow: 2;
+  align-items: flex-end;
+
 
   &__image {
     @include avatar__image;

@@ -27,6 +27,25 @@
     
   }
   
+  // Title
+  // - The avatar title
+  @if ($variant == 'title') {
+    @include font(montserrat-bold);
+    @include uppercase(1.1px);
+    
+    
+    
+  }
+  
+  // Subtitle
+  // - The avatar role
+  @if ($variant == 'subtitle') {
+    @include font(lekton-italic);
+    
+    
+    
+  }
+  
 }
 
 
@@ -36,6 +55,21 @@
   @include font(montserrat-normal);
   @include scale(default);
   @include colors(black-on-white);
+  
+  
+  
+}
+
+.text-style--title {
+  @include font(montserrat-bold);
+  @include uppercase(1.1px);
+  
+  
+  
+}
+
+.text-style--subtitle {
+  @include font(lekton-italic);
   
   
   

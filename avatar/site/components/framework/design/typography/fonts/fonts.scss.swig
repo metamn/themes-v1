@@ -23,7 +23,7 @@
 @mixin font($variant) {
 {% for font in fonts %}{% set font_name = c.classname(font.name) %}{% for style in font.styles %}{% set style_name = c.classname(style.name ) %}
   @if ($variant == '{{ font_name }}-{{ style_name }}') {
-    font-family: '{{ font_name }}', {{ font.family }};
+    font-family: '{{ font.name }}', {{ font.family }};
     font-weight: {{ style.weight }};
     font-style: {{ style.style }};
   }
@@ -34,7 +34,7 @@
 // Font classes
 {% for font in fonts %}{% set font_name = c.classname(font.name) %}{% for style in font.styles %}{% set style_name = c.classname(style.name ) %}
 .{{ font_name }}-{{ style_name }} {
-  font-family: '{{ font_name }}', {{ font.family }};
+  font-family: '{{ font.name }}', {{ font.family }};
   font-weight: {{ style.weight }};
   font-style: {{ style.style }};
 }

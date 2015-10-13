@@ -12,9 +12,18 @@
 // - The default typeface, sans-serif
 // - character set: Latin
 // - served from Google
-// - styles and weights: Normal, 
+// - styles and weights: Normal, Bold, 
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700,);
+
+
+// Lekton
+// - The secondary typeface, sans-serif
+// - character set: Latin
+// - served from Google
+// - styles and weights: Italic, 
+
+@import url(http://fonts.googleapis.com/css?family=Lekton:400italic,);
 
 
 
@@ -23,9 +32,21 @@
 @mixin font($variant) {
 
   @if ($variant == 'montserrat-normal') {
-    font-family: 'montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-style: normal;
+  }
+  
+  @if ($variant == 'montserrat-bold') {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+  }
+  
+  @if ($variant == 'lekton-italic') {
+    font-family: 'Lekton', sans-serif;
+    font-weight: 400;
+    font-style: italic;
   }
   
 }
@@ -34,8 +55,20 @@
 // Font classes
 
 .montserrat-normal {
-  font-family: 'montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.montserrat-bold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.lekton-italic {
+  font-family: 'Lekton', sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 

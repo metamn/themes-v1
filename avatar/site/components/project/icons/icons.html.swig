@@ -2,7 +2,6 @@
   <h3>Icons</h3>
 
   {% for icon in icons %}
-    {% set icon = icon %}
-    {% include '../../framework/structure/icon/icon.html.swig' %}
+    {% include '../../framework/structure/icomoon/icomoon.html.swig' %}
   {% endfor %}
 </article>

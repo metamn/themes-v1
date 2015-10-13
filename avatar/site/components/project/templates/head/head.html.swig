@@ -22,3 +22,4 @@
   </head>
 
   <body>
+    {% include '__icomoon/head__icomoon.html.swig' %}

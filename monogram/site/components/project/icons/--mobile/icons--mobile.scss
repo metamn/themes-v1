@@ -1,0 +1,5 @@
+@mixin icons--mobile {
+  @include mobile {
+    flex-wrap: wrap;
+  }
+}

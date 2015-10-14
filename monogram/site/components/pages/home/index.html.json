@@ -37,6 +37,11 @@
       "name": "twitter",
       "title": "Twitter",
       "url": "http://twitter.com"
+    },
+    {
+      "name": "medium",
+      "title": "Medium",
+      "url": "http://medium.com"
     }
   ],
   "iconsall": [

@@ -4,12 +4,17 @@
   flex-grow: 2;
   align-items: flex-end;
 
-
-  &__image {
-    @include avatar__image;
+  &__content {
+    display: flex;
+    align-items: center;
   }
 
-  &__text {
-    @include avatar__text;
+
+  .avatar-image {
+    @include avatar-image;
+  }
+
+  .avatar-text {
+    @include avatar-text;
   }
 }

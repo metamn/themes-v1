@@ -1,4 +1,4 @@
-@mixin avatar__text {
+@mixin avatar-text {
   .name {
     display: flex;
     @include text-style(title);

@@ -134,6 +134,31 @@
       "name": "medium",
       "title": "Medium",
       "url": "http://medium.com"
+    },
+    {
+      "name": "vimeo",
+      "title": "Vimeo",
+      "url": "http://vimeo.com"
+    },
+    {
+      "name": "pinterest",
+      "title": "Pinterest",
+      "url": "http://pinterest.com"
+    },
+    {
+      "name": "spotify",
+      "title": "Spotify",
+      "url": "http://spotify.com"
+    },
+    {
+      "name": "soundcloud",
+      "title": "Soundcloud",
+      "url": "http://soundcloud.com"
+    },
+    {
+      "name": "behance",
+      "title": "Behance",
+      "url": "http://behance.com"
     }
   ]
 }

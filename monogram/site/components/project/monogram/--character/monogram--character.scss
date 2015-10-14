@@ -1,6 +1,4 @@
 @mixin monogram--character {
   display: flex;
-  @include text-style(character);
-
-  padding: $lem / 4;
+  // Size will be set by JS
 }

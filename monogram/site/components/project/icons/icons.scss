@@ -1,12 +1,12 @@
 @mixin icons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding-bottom: $lem;
 
   flex-grow: 1;
   align-items: flex-end;
 
-  @include icons--mobile;
 
   .icomoon {
     @include icomoon;

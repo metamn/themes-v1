@@ -1,25 +1,26 @@
 html {
   &.home {
     body {
-      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+
+      width: 100vw;
+      height: 100vh;
 
       .monogram {
         @include monogram;
       }
 
-      .content {
-        @include stretch--columns;
-
+      .avatar {
+        @include avatar;
         position: relative;
-        z-index: 1;
+      }
 
-        .avatar {
-          @include avatar;
-        }
-
-        .icons {
-          @include icons;
-        }
+      .icons {
+        @include icons;
+        position: relative;
       }
     }
   }

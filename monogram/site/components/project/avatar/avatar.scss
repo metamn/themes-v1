@@ -1,20 +1,14 @@
 @mixin avatar {
   display: flex;
+  flex-wrap: no-wrap;
+  align-items: center;
+  
 
-  flex-grow: 2;
-  align-items: flex-end;
-
-  &__content {
-    display: flex;
-    align-items: center;
+  &__image {
+    @include avatar__image;
   }
 
-
-  .avatar-image {
-    @include avatar-image;
-  }
-
-  .avatar-text {
-    @include avatar-text;
+  &__text {
+    @include avatar__text;
   }
 }

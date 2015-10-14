@@ -12,36 +12,12 @@ $white: #fff;
 // Main color
 $black: #000;
 
-// Secondary color
-$gray: #999;
-
-// Secondary color
-$lightgray: #f1f1f1;
-
 // main color
-$blue: #4916DA;
+$palegreen: #98fb98;
 
 
 // Color combinations. Colors are not used standalone but in pairs
 @mixin colors($name) {
-
-  @if ($name == 'black-on-white') {
-    color: $black;
-    background-color: $white;
-    
-  }
-
-  @if ($name == 'blue-on-white') {
-    color: $blue;
-    background-color: $white;
-    
-  }
-
-  @if ($name == 'gray-on-white') {
-    color: $gray;
-    background-color: $white;
-    
-  }
 
   @if ($name == 'white-on-black') {
     color: $white;
@@ -49,9 +25,9 @@ $blue: #4916DA;
     
   }
 
-  @if ($name == 'gray-on-lightgray') {
-    color: $gray;
-    background-color: $lightgray;
+  @if ($name == 'palegreen-on-black') {
+    color: $palegreen;
+    background-color: $black;
     
   }
 
@@ -67,38 +43,12 @@ $blue: #4916DA;
   background: #000;
 };
 
-.gray {
-  background: #999;
-};
-
-.lightgray {
-  background: #f1f1f1;
-};
-
-.blue {
-  background: #4916DA;
+.palegreen {
+  background: #98fb98;
 };
 
 
 // Color pair classes
-
-.black-on-white {
-  color: $black;
-  background-color: $white;
-  
-}
-
-.blue-on-white {
-  color: $blue;
-  background-color: $white;
-  
-}
-
-.gray-on-white {
-  color: $gray;
-  background-color: $white;
-  
-}
 
 .white-on-black {
   color: $white;
@@ -106,9 +56,9 @@ $blue: #4916DA;
   
 }
 
-.gray-on-lightgray {
-  color: $gray;
-  background-color: $lightgray;
+.palegreen-on-black {
+  color: $palegreen;
+  background-color: $black;
   
 }
 

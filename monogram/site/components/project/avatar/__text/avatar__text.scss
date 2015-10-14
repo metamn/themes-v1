@@ -1,4 +1,6 @@
 @mixin avatar__text {
+  @include colors(palegreen-on-black);
+  
   .name {
     display: flex;
     @include text-style(title);

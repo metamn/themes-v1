@@ -15,7 +15,7 @@
         },
         {
           "name": "colors",
-          "value": "white-on-black"
+          "value": "palegreen-on-black"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "mixins": [
         {
           "name": "font",
-          "value": "lekton-italic"
+          "value": "lekton-bold"
         }
       ]
     },

@@ -1,6 +1,6 @@
 @mixin avatar__text {
-  @include colors(palegreen-on-black);
-  
+  @include colors(plum-on-transparent);
+
   .name {
     display: flex;
     @include text-style(title);

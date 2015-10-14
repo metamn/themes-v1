@@ -21,7 +21,7 @@
   @if ($variant == 'default') {
     @include font(montserrat-normal);
     @include scale(default);
-    @include colors(white-on-black);
+    @include colors(palegreen-on-black);
     
     
     
@@ -40,7 +40,7 @@
   // Subtitle
   // - The avatar role
   @if ($variant == 'subtitle') {
-    @include font(lekton-italic);
+    @include font(lekton-bold);
     
     
     
@@ -174,7 +174,7 @@
 .text-style--default {
   @include font(montserrat-normal);
   @include scale(default);
-  @include colors(white-on-black);
+  @include colors(palegreen-on-black);
   
   
   
@@ -189,7 +189,7 @@
 }
 
 .text-style--subtitle {
-  @include font(lekton-italic);
+  @include font(lekton-bold);
   
   
   

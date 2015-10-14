@@ -21,9 +21,9 @@
 // - The secondary typeface, sans-serif
 // - character set: Latin
 // - served from Google
-// - styles and weights: Italic, 
+// - styles and weights: Bold, 
 
-@import url(http://fonts.googleapis.com/css?family=Lekton:400italic,);
+@import url(http://fonts.googleapis.com/css?family=Lekton:700,);
 
 
 
@@ -43,10 +43,10 @@
     font-style: bold;
   }
   
-  @if ($variant == 'lekton-italic') {
+  @if ($variant == 'lekton-bold') {
     font-family: 'Lekton', sans-serif;
-    font-weight: 400;
-    font-style: italic;
+    font-weight: 700;
+    font-style: bold;
   }
   
 }
@@ -66,9 +66,9 @@
   font-style: bold;
 }
 
-.lekton-italic {
+.lekton-bold {
   font-family: 'Lekton', sans-serif;
-  font-weight: 400;
-  font-style: italic;
+  font-weight: 700;
+  font-style: bold;
 }
 

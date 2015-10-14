@@ -31,10 +31,10 @@
       "google_font_id": "Lekton",
       "styles": [
         {
-          "name": "Italic",
-          "weight": "400",
-          "style": "italic",
-          "id": "400italic"
+          "name": "Bold",
+          "weight": "700",
+          "style": "bold",
+          "id": "700"
         }
       ]
     }

@@ -1,8 +1,8 @@
 {
   "colors": [
     {
-      "name": "white",
-      "value": "#fff",
+      "name": "plum",
+      "value": "#dda0dd",
       "description": "Main color"
     },
     {
@@ -18,19 +18,6 @@
   ],
   "color_pairs": [
     {
-      "name": "white-on-black",
-      "properties": [
-        {
-          "name": "color",
-          "value": "$white"
-        },
-        {
-          "name": "background-color",
-          "value": "$black"
-        }
-      ]
-    },
-    {
       "name": "palegreen-on-black",
       "properties": [
         {
@@ -40,6 +27,19 @@
         {
           "name": "background-color",
           "value": "$black"
+        }
+      ]
+    },
+    {
+      "name": "plum-on-transparent",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$plum"
+        },
+        {
+          "name": "background-color",
+          "value": "transparent"
         }
       ]
     }

@@ -18,16 +18,16 @@ var monogram = function(containerID) {
 function monogramCharacterSize(length) {
   switch (true) {
     case (length <= 5):
-      return 'text-style--character-s';
+      return 'text-style--character-xl';
       break;
     case (length <= 10):
-      return 'text-style--character-m';
-      break;
-    case (length <= 15):
       return 'text-style--character-l';
       break;
+    case (length <= 15):
+      return 'text-style--character-m';
+      break;
     default:
-      return 'text-style--character-xl';
+      return 'text-style--character-s';
   }
 }
 

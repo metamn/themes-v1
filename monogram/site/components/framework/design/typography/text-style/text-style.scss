@@ -136,9 +136,9 @@
     
   }
   
-  // Character S
+  // Character XL
   // - The background character, for small length text
-  @if ($variant == 'character-s') {
+  @if ($variant == 'character-xl') {
     @include font(montserrat-bold);
     @include uppercase(1.1px);
     @include scale(large-8);
@@ -279,7 +279,7 @@
   
 }
 
-.text-style--character-s {
+.text-style--character-xl {
   @include font(montserrat-bold);
   @include uppercase(1.1px);
   @include scale(large-8);

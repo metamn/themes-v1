@@ -208,7 +208,7 @@
       ]
     },
     {
-      "name": "Character S",
+      "name": "Character XL",
       "description": "The background character, for small length text",
       "based_on": "Montserrat",
       "mixins": [

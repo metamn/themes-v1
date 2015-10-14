@@ -37,6 +37,23 @@
       "name": "twitter",
       "title": "Twitter",
       "url": "http://twitter.com"
+    }
+  ],
+  "iconsall": [
+    {
+      "name": "envelope",
+      "title": "Email",
+      "url": "mailto:"
+    },
+    {
+      "name": "github",
+      "title": "Github",
+      "url": "http://github.com"
+    },
+    {
+      "name": "twitter",
+      "title": "Twitter",
+      "url": "http://twitter.com"
     },
     {
       "name": "instagram",
@@ -61,7 +78,7 @@
     {
       "name": "codepen",
       "title": "Codepen",
-      "url": "http://codepen.com"
+      "url": "http://codepen.io"
     },
     {
       "name": "dribbble",
@@ -82,6 +99,41 @@
       "name": "google-plus",
       "title": "Google Plus",
       "url": "http://plus.google.com"
+    },
+    {
+      "name": "skype",
+      "title": "Skype",
+      "url": "http://skype.com"
+    },
+    {
+      "name": "youtube",
+      "title": "Youtube",
+      "url": "http://youtube.com"
+    },
+    {
+      "name": "lastfm",
+      "title": "Last FM",
+      "url": "http://last.fm"
+    },
+    {
+      "name": "stack-overflow",
+      "title": "Stack Overflow",
+      "url": "http://stackoverflow.com"
+    },
+    {
+      "name": "xing",
+      "title": "Xing",
+      "url": "http://xing.com"
+    },
+    {
+      "name": "bitbucket",
+      "title": "Bitbucket",
+      "url": "http://bitbucket.com"
+    },
+    {
+      "name": "medium",
+      "title": "Medium",
+      "url": "http://medium.com"
     }
   ]
 }

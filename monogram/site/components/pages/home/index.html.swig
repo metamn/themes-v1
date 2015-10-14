@@ -13,7 +13,7 @@
 
     {% include '../../project/avatar/avatar.html.swig' %}
 
-    {% set icons = icons %}
+    {% set icons = iconsall %}
     {% include '../../project/icons/icons.html.swig' %}
   </section>
 

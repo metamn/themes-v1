@@ -1,4 +1,7 @@
+// Size will be set by JS
 @mixin monogram--character {
   display: flex;
-  // Size will be set by JS
+
+  @include border(normal, right);
+  color: $lightgray;
 }

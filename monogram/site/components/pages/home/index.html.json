@@ -1,10 +1,17 @@
 {
   "title": "Home",
-  "avatar": {
-    "name": "Same Fernandez",
-    "role": "Front-end developer",
-    "image": "avatar.jpg"
-  },
+  "avatars": [
+    {
+      "name": "Same Fernandez",
+      "role": "Front-end developer",
+      "image": "same-fernandez.jpg"
+    },
+    {
+      "name": "Same Fernandez",
+      "role": "Front-end developer",
+      "image": "avatar.jpg"
+    }
+  ],
   "icons": [
     {
       "name": "github",

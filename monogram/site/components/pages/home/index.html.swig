@@ -1,3 +1,7 @@
+{% set avatar = avatars[0] %}
+
+
+
 {% extends '../../project/templates/default/default.html.swig' %}
 {% block content %}
 
@@ -7,7 +11,6 @@
   <section class="content">
     <h3>Content</h3>
 
-    {% set avatar = avatar %}
     {% include '../../project/avatar/avatar.html.swig' %}
 
     {% set icons = icons %}

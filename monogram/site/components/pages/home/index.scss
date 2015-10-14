@@ -9,7 +9,10 @@ html {
 
       .content {
         @include stretch--columns;
-        
+
+        position: relative;
+        z-index: 1;
+
         .avatar {
           @include avatar;
         }

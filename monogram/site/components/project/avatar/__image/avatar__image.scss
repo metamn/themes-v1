@@ -1,6 +1,6 @@
 @mixin avatar__image {
   padding: 0 $lem / 2;
-  max-width: 30vw;
+  max-width: $lem * 3;
 
   .img {
     @include img(fluid, false, false);

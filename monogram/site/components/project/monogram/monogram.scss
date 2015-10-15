@@ -18,7 +18,9 @@
     display: none;
   }
 
-  &__text {
-    @include monogram__text;
+  &__character {
+    @include monogram__character;
   }
+
+  @include text-clipping-mask(black-on-white, lighten);
 }

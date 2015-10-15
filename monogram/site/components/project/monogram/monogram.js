@@ -1,6 +1,6 @@
 var monogram = function(containerID) {
   var container = document.querySelector(containerID);
-  var textContainer = container.querySelector('.monogram__name');
+  var textContainer = container.querySelector('.monogram__text');
   var text = textContainer.dataset.name;
 
   var chars = text.split("");
@@ -33,3 +33,4 @@ function monogramCharacterSize(length) {
 
 
 monogram('.monogram');
+setBackgroundImage('.monogram');

@@ -32,5 +32,5 @@ function monogramCharacterSize(length) {
 }
 
 
-monogram('.monogram');
+//monogram('.monogram');
 setBackgroundImage('.monogram');

@@ -11,6 +11,8 @@
     <link href="/assets/styles/site.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
     
+    <script src="/assets/scripts/picturefill.min.js"></script>
+  
 
     
   </head>
@@ -134,10 +136,81 @@
 
 
   
+  
   <section class="monogram">
   <h3>Monogram layer</h3>
 
-  <span class="monogram__name" data-name="Same Fernandez"></span>
+  <aside class="monogram__image">
+  <h3>Text Clipping Mask</h3>
+
+  
+  
+
+
+
+
+<figure class="figure">
+  
+
+  <!-- The default extension is .png but other formats are handled too -->
+  
+  
+    
+  
+
+  <!-- If 'onesize' is set all images will have the same size -->
+  
+    <!-- Naming convention for responsive images -->
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+  <!-- Showing different images for different devices -->
+  
+
+
+  <!-- Figcaption is image title unless is not set explicitely -->
+  
+  
+
+  
+
+
+  <!-- Images are served from /site also for /styleguide -->
+  
+  
+
+
+  <picture class="picture">
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source media="(min-width: 1600px)" srcset="/assets/images/cliptext-newwave_desktop.jpg, /assets/images/cliptext-newwave_desktop2x.jpg 2x">
+    <source media="(min-width: 1024px)" srcset="/assets/images/cliptext-newwave_laptop.jpg, /assets/images/cliptext-newwave_laptop2x.jpg 2x">
+    <source media="(min-width: 600px)" srcset="/assets/images/cliptext-newwave_tablet.jpg, /assets/images/cliptext-newwave_tablet2x.jpg 2x">
+    <source media="(max-width: 599px)" srcset="/assets/images/cliptext-newwave_mobile.jpg, /assets/images/cliptext-newwave_mobile2x.jpg 2x">
+    <!--[if IE 9]></video><![endif]-->
+    <!-- to make it work with imagesLoaded the 'srcset' is replaced by a standard fallback 'src' -->
+    <img class="img" src="/assets/images/cliptext-newwave_laptop.jpg"  alt="OneShopStop full vivid colors">
+  </picture>
+
+  <figcaption class="figcaption figcaption--from-title">
+    OneShopStop full vivid colors
+  </figcaption>
+
+
+</figure>
+
+</aside>
+
+  <article class="monogram__text">
+  <h3 class="title">Same Fernandez</h3>
+</article>
+
 </section>
 
 
@@ -215,6 +288,8 @@
 
 
 
+    <script src="/assets/scripts/imagesloaded.pkgd.min.js"></script>
+  
     <script src="/assets/scripts/site.min.js"></script>
   
 

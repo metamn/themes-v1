@@ -1,26 +1,17 @@
 @mixin monogram {
-  position: absolute;
-  z-index: 0;
+  @include background-image($black);
 
+  position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
 
-  background: transparent;
-  overflow-x: hidden;
-
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-  &__name {
-    display: none;
+  &__image {
+    @include monogram__image;
   }
 
-  &__character {
-    @include monogram__character;
+  &__text {
+    @include monogram__text;
   }
-
-  @include text-clipping-mask(black-on-white, lighten);
 }

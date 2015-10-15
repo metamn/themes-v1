@@ -4,7 +4,16 @@
   "images": "assets/images/",
   "icomoon": "icomoon-sprite.svg",
   "javascripts": {
+    "header": [
+      {
+        "file": "picturefill.min.js",
+        "async": "true"
+      }
+    ],
     "footer": [
+      {
+        "file": "imagesloaded.pkgd.min.js"
+      },
       {
         "file": "site.min.js"
       }

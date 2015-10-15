@@ -4,6 +4,7 @@
 {% block content %}
 
   {% set name = avatar.name %}
+  {% set image = images[0] %}
   {% include '../../project/monogram/monogram.html.swig' %}
 
   {% include '../../project/avatar/avatar.html.swig' %}

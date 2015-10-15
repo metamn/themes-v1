@@ -1,0 +1,6 @@
+// Size will be set by JS
+@mixin monogram__text {
+  display: flex;
+
+  @include text-clipping-mask(black-on-white, lighten);
+}

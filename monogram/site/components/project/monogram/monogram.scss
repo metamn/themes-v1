@@ -18,7 +18,7 @@
     display: none;
   }
 
-  &__character {
-    @include monogram__character;
+  &__text {
+    @include monogram__text;
   }
 }

@@ -63,12 +63,6 @@
           "value": "large-3"
         }
       ],
-      "properties": [
-        {
-          "name": "padding",
-          "value": "$lem / 2"
-        }
-      ],
       "responsive": [
         {
           "breakpoint": "tablet",
@@ -115,12 +109,6 @@
         {
           "name": "scale",
           "value": "large-4"
-        }
-      ],
-      "properties": [
-        {
-          "name": "padding",
-          "value": "$lem / 4"
         }
       ],
       "responsive": [
@@ -171,12 +159,6 @@
           "value": "large-6"
         }
       ],
-      "properties": [
-        {
-          "name": "padding",
-          "value": "$lem / 8"
-        }
-      ],
       "responsive": [
         {
           "breakpoint": "tablet",
@@ -223,12 +205,6 @@
         {
           "name": "scale",
           "value": "large-8"
-        }
-      ],
-      "properties": [
-        {
-          "name": "padding",
-          "value": "0"
         }
       ],
       "responsive": [

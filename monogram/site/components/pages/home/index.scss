@@ -2,9 +2,7 @@ html {
   &.home {
     body {
       display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
+      align-items: flex-end;
 
       width: 100vw;
       height: 100vh;
@@ -13,14 +11,8 @@ html {
         @include monogram;
       }
 
-      .avatar {
-        @include avatar;
-        position: relative;
-      }
-
-      .icons {
-        @include icons;
-        position: relative;
+      .home__avatar-and-icons {
+        @include home__avatar-and-icons;
       }
     }
   }

@@ -7,9 +7,7 @@
   {% set image = images[0] %}
   {% include '../../project/monogram/monogram.html.swig' %}
 
-  {% include '../../project/avatar/avatar.html.swig' %}
-
   {% set icons = icons %}
-  {% include '../../project/icons/icons.html.swig' %}
+  {% include '__avatar-and-icons/home__avatar-and-icons.html.swig' %}
 
 {% endblock %}

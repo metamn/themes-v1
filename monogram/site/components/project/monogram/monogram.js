@@ -1,15 +1,10 @@
 var monogram = function(containerID) {
   var container = document.querySelector(containerID);
-  var textContainer = container.querySelector('.monogram__text');
-  var text = textContainer.dataset.name;
+  var textContainer = container.querySelector('.monogram__text .title');
+  var text = textContainer.innerHTML;
 
-  var chars = text.split("");
-  for (var i = 0; i < text.length; i++) {
-    var item = document.createElement('div');
-    item.className = 'monogram__character ' + monogramCharacterSize(text.length);
-    item.innerHTML = chars[i];
-    container.appendChild(item);
-  }
+  var size = monogramCharacterSize(text.length);
+  textContainer.classList.add(size);
 };
 
 
@@ -32,5 +27,5 @@ function monogramCharacterSize(length) {
 }
 
 
-//monogram('.monogram');
+monogram('.monogram');
 setBackgroundImage('.monogram');

@@ -2,7 +2,6 @@
   <h3>Themes</h3>
 
   {% for theme in themes %}
-    {% set link = theme %}
-    {% include '../../../framework/design/typography/elements/link/link.html.swig' %}
+    {% include '../../../project/thumb/thumb.html.swig' %}
   {% endfor %}
 </section>

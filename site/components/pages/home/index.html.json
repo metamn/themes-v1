@@ -3,7 +3,15 @@
   "themes": [
     {
       "title": "Monogram Cube",
-      "url": ""
+      "image": {
+        "title": "Monogram Cube",
+        "name": "monogram--cube--white-on-brown",
+        "onesize": "mobile",
+        "link": {
+          "title": "Monogram Cube",
+          "url": ""
+        }
+      }
     }
   ]
 }

@@ -6,7 +6,7 @@
 {% endif %}
 
 <figure class="{{ klass }}">
-  {% if image.link %}{{ l.link(link) }}{% endif %}
+  {% if image.link %}{{ l.link(image.link) }}{% endif %}
 
   {# The default extension is .png but other formats are handled too #}
   {% set extension = '.png' %}

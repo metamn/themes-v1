@@ -4,10 +4,29 @@
   "urlx": "http://metamn.io/themes/",
   "images": "assets/images/",
   "javascripts": {
+    "header": [
+      {
+        "file": "picturefill.min.js"
+      }
+    ],
     "footer": [
       {
         "file": "site.min.js"
       }
     ]
-  }
+  },
+  "themes": [
+    {
+      "title": "Monogram Cube",
+      "image": {
+        "title": "Monogram Cube",
+        "name": "monogram--cube--white-on-brown",
+        "onesize": "mobile",
+        "link": {
+          "title": "Monogram Cube",
+          "url": ""
+        }
+      }
+    }
+  ]
 }

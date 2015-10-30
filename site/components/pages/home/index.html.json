@@ -1,3 +1,9 @@
 {
-  "title": "Home"
+  "title": "Home",
+  "themes": [
+    {
+      "title": "Monogram Cube",
+      "url": ""
+    }
+  ]
 }

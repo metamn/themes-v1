@@ -1,8 +1,8 @@
 {
+  "title": "Meta Themes",
   "url": "/",
-  "urlx": "http://metamn.io/themes/monogram",
+  "urlx": "http://metamn.io/themes",
   "images": "assets/images/",
-  "icomoon": "icomoon-sprite.svg",
   "javascripts": {
     "footer": [
       {

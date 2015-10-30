@@ -12,8 +12,7 @@ var gulp = require('gulp'),
 
     gulpIgnore = require('gulp-ignore'),
     rename = require('gulp-rename'),
-    minifyHTML = require('gulp-minify-html'),
-    prettify = require('gulp-html-prettify');
+    minifyHTML = require('gulp-minify-html');
 
 
 // Configuration
@@ -50,8 +49,7 @@ var html = function(source, dest) {
       }
     }))
 
-    .pipe(prettify({indent_char: ' ', indent_size: 2}))
-    //.pipe(minifyHTML())
+    .pipe(minifyHTML())
     .pipe(gulp.dest(dest));
 }
 

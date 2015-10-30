@@ -1,0 +1,29 @@
+{
+  "colors": [
+    {
+      "name": "white",
+      "value": "#fff",
+      "description": "Main color"
+    },
+    {
+      "name": "brown",
+      "value": "#A4825D",
+      "description": "Main color"
+    }
+  ],
+  "color_pairs": [
+    {
+      "name": "white-on-brown",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$white"
+        },
+        {
+          "name": "background-color",
+          "value": "$brown"
+        }
+      ]
+    }
+  ]
+}

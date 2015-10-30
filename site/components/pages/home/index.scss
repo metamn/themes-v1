@@ -1,0 +1,21 @@
+html {
+  &.home {
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      min-height: 100vh;
+
+      .monogram {
+        @include monogram(30vh, 30vh, 0);
+        padding: 0 10vw 15vh;
+      }
+
+      .cube {
+        @include cube(white-on-brown, $lem * 4);
+        padding: 0 0 10vh 15vw;
+      }
+    }
+  }
+}

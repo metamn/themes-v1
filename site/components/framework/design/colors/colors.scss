@@ -1,0 +1,45 @@
+// Colors
+//
+// The colors together with the color pairs.
+// Colors don't exist alone yet in pairs, like black on white.
+// All color pairs have a contrast ratio set for perfect readability using [Lea Verou's contrast checking tool](http://leaverou.github.io/contrast-ratio/).
+//
+// Styleguide colors
+
+// Main color
+$white: #fff;
+
+// Main color
+$brown: #A4825D;
+
+
+// Color combinations. Colors are not used standalone but in pairs
+@mixin colors($name) {
+
+  @if ($name == 'white-on-brown') {
+    color: $white;
+    background-color: $brown;
+    
+  }
+
+}
+
+// Color classes
+
+.white {
+  background: #fff;
+};
+
+.brown {
+  background: #A4825D;
+};
+
+
+// Color pair classes
+
+.white-on-brown {
+  color: $white;
+  background-color: $brown;
+  
+}
+

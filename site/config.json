@@ -24,8 +24,9 @@
         "onesize": "mobile",
         "link": {
           "title": "Monogram Cube",
-          "url": ""
-        }
+          "url": "monogram-cube"
+        },
+        "demo": "monogram-theme-monogram-base-cube-white-on-brown"
       }
     }
   ]

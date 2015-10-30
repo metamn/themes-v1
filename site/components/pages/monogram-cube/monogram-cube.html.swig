@@ -5,6 +5,7 @@
   {{ theme.title }}
 
   {% set image = theme.image %}
+  {% set image.link.url = image.link.url + '/' + image.demo %}
   {% include '../../framework/structure/figure/figure.html.swig' %}
 
 {% endblock %}
